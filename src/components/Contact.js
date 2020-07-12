@@ -12,8 +12,15 @@ export default class Contact extends Component {
       <p id="cp">Votre Message:</p>
       <input type="text"/>
 
+      <div className="columns contact-details">
+
+   
+</div>
+
       <button id="btn" type="submit" value="Envoyer">Envoyer</button>
+    
     </form>
+    
         );
   }
 }

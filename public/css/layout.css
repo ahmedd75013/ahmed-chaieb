@@ -101,9 +101,6 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
-
-/* primary navigation
---------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -145,7 +142,7 @@ ul#nav li {
 /* Links */
 ul#nav li a {
 
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
 
    display: inline-block;
    padding: 8px 13px;
@@ -164,10 +161,6 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: yellow; }
 
-
-/* ------------------------------------------------------------------ */
-/* apropos
-/* ------------------------------------------------------------------ */
 
 #about {
    background:  #41a0d67a;
@@ -214,11 +207,6 @@ ul#nav li.current a { color: yellow; }
    margin-right: 15px;
    font-size: 20px;
 }
-
-
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
 
 #resume {
    background: rgba(255, 255, 255, 0.61);
@@ -278,9 +266,6 @@ ul#nav li.current a { color: yellow; }
  height: 3.2rem;
 
 }
-/* ------------------------------------------------------------------ */
-/* e. Portfolio Section
-/* ------------------------------------------------------------------ */
 
 #portfolio {
    background: #ebeeee;
@@ -428,10 +413,7 @@ ul#nav li.current a { color: yellow; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
 
-/* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
@@ -440,18 +422,14 @@ ul#nav li.current a { color: yellow; }
 	-ms-transition: all 200ms ease-in-out;
    transition: all 200ms ease-in-out;
 }
-/* content fadein */
+
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
    opacity: 1;
 }
-/* content fadeout */
+
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
-
-/* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
 
 #call-to-action {
    background: #212121;
@@ -490,12 +468,7 @@ ul#nav li.current a { color: yellow; }
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -506,11 +479,6 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-
-
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
 
 #contact {
 
@@ -568,15 +536,13 @@ call-to-action .button {
  {
    margin: 3em;
     background-color: #131717b8;
-   margin-left: 19em; 
+   margin-left: 18em; 
 }
 
 #projet{
    background: rgba(255, 255, 255, 0.61);
 }
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
+
 
 footer {
    padding-top: 48px;
@@ -590,31 +556,7 @@ footer {
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
 
-/* copyright */
-/* footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
 
-/* social links */
  footer .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
