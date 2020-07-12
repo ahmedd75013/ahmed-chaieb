@@ -12,7 +12,7 @@ export default class Contact extends Component {
       <p id="cp">Votre Message:</p>
       <input type="text"/>
 
-      <input id="btn" type="submit" value="Envoyer" />
+      <button id="btn" type="submit" value="Envoyer">Envoyer</button>
     </form>
         );
   }

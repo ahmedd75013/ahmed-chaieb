@@ -18,7 +18,7 @@ let resumeData = {
         },
       
       ],
-    "aboutme":"Je suis etudien chez samsung campus (Epitech).",
+    "aboutme":"Actuellement en 1ere annee a l'ecole Samsung Campus,je recherche une alternance afin de valide ma premiere annee et poursuivre mon cursus. ",
     "num":"06 52 80 51 05",
     "email":"Ahmed.chaieb@epitech.eu",
 

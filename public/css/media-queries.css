@@ -307,8 +307,16 @@
    #contact textarea,
    #contact select {
      	margin-bottom: 6px;    	
-      width: 100%;
+     
    }
+
+   button #btn{
+     margin-left: 5em; 
+   }
+/* 
+   #btn {
+      margin-left: 4em;
+   } */
    #contact button.submit { margin: 30px 0 24px 0; }
    #message-warning, #message-success {
       width: 100%;

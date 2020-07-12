@@ -1,13 +1,13 @@
-body { background: #0f0f0f; }
+/* body { background: #0f0f0f; } */
 /* word */
 body {
-   background:black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg);
-   animation: stars 205s linear alternate;
+   background:black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg); 
+    animation: stars 205s linear alternate;
  }
  #animation {
    background:url(https://www.awelty.fr/medias/images/php-web-development.png);
-   background-size:cover;
-   border:2px solid #000;
+   background-size:cover; 
+    border:2px solid #000;
    border-radius:50%;
    width:200px;
    height:200px;
@@ -249,7 +249,7 @@ ul#nav li.current a { color: yellow; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: rgba(0, 0, 0, 0.664);
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -262,9 +262,7 @@ ul#nav li.current a { color: yellow; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	co;petence
-/*----------------------------------------------*/
+/*	co;petence */
 .clients {
    align-items: center;
    -webkit-box-align: center;
@@ -544,7 +542,7 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
-#contact input,
+#contact input,button,
 #contact textarea,
 #contact select,#cp{
    padding: 18px 20px;
@@ -557,6 +555,8 @@ call-to-action .button {
    width: 65%;
    margin: auto;
 }
+
+
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
@@ -566,12 +566,13 @@ call-to-action .button {
 
 #btn
  {
-   background-color: #131717b8;
-  margin-left: 5em;
+   margin: 3em;
+    background-color: #131717b8;
+   margin-left: 19em; 
 }
 
 #projet{
-   background-color: rgb(252, 250, 248);background: rgba(255, 255, 255, 0.425);
+   background: rgba(255, 255, 255, 0.61);
 }
 /* ------------------------------------------------------------------ */
 /* i. Footer
