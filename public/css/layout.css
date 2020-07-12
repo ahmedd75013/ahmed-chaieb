@@ -221,7 +221,7 @@ ul#nav li.current a { color: yellow; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: rgba(255, 255, 255, 0.61);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -301,7 +301,7 @@ ul#nav li.current a { color: yellow; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   
    overflow: hidden;
    position: relative;
 
@@ -571,7 +571,7 @@ call-to-action .button {
 }
 
 #projet{
-   background-color: rgb(252, 250, 248);
+   background-color: rgb(252, 250, 248);background: rgba(255, 255, 255, 0.425);
 }
 /* ------------------------------------------------------------------ */
 /* i. Footer

@@ -18,8 +18,10 @@ export default class Porfolio extends Component {
                       {/* <img className="profile-pic"  src="images/moi.jpg" alt="" /> */}
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
+                          { <h5>{item.name}</h5>}
+                          {/* <p href={item.url} target="_blank"><i className={item.className}></i></p> */}
                           <p>{item.description}</p>
+                          
                         </div>
                       </div>
                     {/* </a> */}

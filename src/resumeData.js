@@ -2,10 +2,9 @@ let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "description33":"HTML, CSS ,JS ",
     "name": "Ahmed Chaieb",
-    "role": "Frontend Developer and Data Scientist",
+ 
     "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    
     "socialLinks":[
         {
           "name":"linkedin",
@@ -87,23 +86,27 @@ let resumeData = {
       {
         "name":"Maquette Resposible",
         "description":"HTML, CSS, JS",
-        "imgurl":"images/moi.jpg"
+        "imgurl":"images/10.jpg",
+        // "url":"https://github.com/ahmedd75013",
       },
       {
-        "name":"Snap",
-        "description":"mobileapp",
-        "imgurl":"images/snap.jpg"
+        "name":"My Snap",
+        "description":"React",
+        "imgurl":"images/snap.jpg",
+        // "url":"https://github.com/ahmedd75013",
        
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/moi.jpg"
+        "name":"My Cinema",
+        "description":"html ,css,js",  
+        "imgurl":"images/44.jpg",
+        // "url":"https://github.com/ahmedd75013",
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/moi.jpg"
+        "name":"E-commerce E-studio",
+        "description":"React , Laravel",
+        "imgurl":"images/gg.jpg",
+        // "url":"https://github.com/ahmedd75013",
       }
     ],
 
